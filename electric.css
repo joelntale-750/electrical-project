@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif; 
+}
+/* ++++++++++++++++++++++++++++++++++ */
+/* HIRO SECTION */
+/* +++++++++++++++++++++++++++++++++ */
+body .hero-section{
+    background-image: url(./Image/Illustration.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body .hero-section .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 50px;
+    align-items: center;
+}
+.hero-section .navbar .fa-brands{
+    color: yellow;
+    font-size: 30px;
+}
+.hero-section .navbar .logo{
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.hero-section .navbar .liste{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    list-style: none;  
+}
+.navbar .liste .lien{
+    margin: 50px;
+}
+.navbar .hamburger{
+    display: none;
+}
+.navbar .liste .btn{
+    border: 1px solid orange;
+    background: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+}
+.hero-section .navbar .btn-connexion{
+    color: black;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 7px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+}
+body .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     padding: 0px 50px;
+}
+.hero-section .box-texte .grand-title{
+    color: white;
+    font-size: 50px;
+}
+.hero-section .box-texte .paragraphe-1{
+    color: rgba(245, 255, 250, 0.651);
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.hero-section .box-texte .box-button{
+    padding-top: 20px;
+}
+.hero-section .box-texte .btn-yellow{
+    font-size: 14px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hero-section .box-texte .btn-none{
+    font-size: 14px;
+    background: none;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    margin-left: 20px;
+}
+body .container .salon{
+    height: 25rem;
+    width: 30rem;
+    border-radius: 20px;
+}
+
+/* ========================================= */
+/* TEXTE SECTION */
+/* ========================================= */
+body .texte-section{
+    background-color: rgba(0, 69, 139, 0.694);
+    min-height: 100vh;
+    padding: 0px 50px;
+}
+body .texte-section .title-section-2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+body .texte-section .paragraphe-section-2{
+    color: rgba(245, 255, 250, 0.651);
+    padding-top: 10px;
+}
+
+body .texte-section .box-texte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.texte-section .box-texte .texte-1{
+    width: 36rem;
+    height: 10rem;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 69, 139, 0.694);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ .box-texte .paragraphe-texte{
+    color: rgba(245, 255, 250, 0.651);
+    text-align: initial;
+    font-size: 13.5px;
+    padding-top: 7px;
+ }
+ .box-texte .title-box{
+    color: white;
+ }
+ .texte-section .box-texte .block-texte{
+     margin: 10px;
+ }
+ .box-texte .texte-1 .fa-robot{
+    color: yellow;
+    height: 40px;
+    width: 40px;
+    background-color: blueviolet;
+    padding-top: 10px;
+    border-radius: 50%;
+ }
+.texte-section .box-texte .simbole{
+    color: rgba(248, 8, 8, 0.824);
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+} 
+.texte-section .box-texte .texte-2{
+    width: 36rem;
+    height: 10rem;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 69, 139, 0.694);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ .box-texte .texte-2 .top{
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(92, 92, 248);
+    padding-top: 10px;
+    border-radius: 50%;
+ }
+ .texte-section .box-texte .bar{
+    color: rgb(13, 13, 207);
+    height: 10px;
+    width: 10px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+} 
+.texte-section .box-texte .texte-3{
+    width: 36rem;
+    height: 10rem;
+    margin-top: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 69, 139, 0.694);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box-texte .texte-3 .building{
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    padding-top: 10px;
+    border-radius: 50%;
+ }
+  .texte-section .box-texte .truc{
+    color: chartreuse;
+    height: 10px;
+    width: 10px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+} 
+.texte-section .box-texte .texte-4{
+    width: 36rem;
+    height: 10rem;
+    margin-top: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(0, 69, 139, 0.694);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.texte-section .box-texte .ecc{
+    color: white;
+    background: none;
+    border: 1px solid rgba(220, 210, 210, 0.779);
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+/* +++++++++++++++++++++++++++++++++ */
+/* SECTION FOOTER */
+/* +++++++++++++++++++++++++++++++++ */
+body .section-footer{
+    background-color: rgba(0, 69, 139, 0.694);
+    min-height: 100vh;
+    padding: 30px 50px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body .section-footer .background{
+    background-color: rgb(18, 18, 50);
+    width: 95vh;
+    min-height: 75vh;
+    padding: 20px;
+}
+.background .box-illustration{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.background .box-illustration .logo-footer{
+    color: white;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+}
+.background .box-illustration .texte-footer{
+    padding-top: 9rem;
+}
+.section-footer .paragraphe-footer{
+    color: rgba(245, 255, 250, 0.651); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.background .box-illustration .image{
+    width: 300px;
+    height: 300px;
+    padding-top: 5.5rem;
+}
+.box-illustration .texte-footer .title-illustration{
+    color: white;
+    padding-top: 2rem;
+}
+.background .title-footer{
+    color: white;
+    font-size: 30px; 
+}
+.background .texte-footer .btn-footer{
+    color: black;
+    background-color: yellow;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.section-footer .box-footer .footer-lampe{
+    width: 95vh;
+    height: 45vh;
+}
+.box-footer .fin-footer{
+    background-color: rgba(0, 69, 139, 0.694);
+    width: 95vh;
+    min-height: 45vh;
+}
+.box-footer .fin-footer .block-footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 150px;
+}
+.section-footer .fin-footer .title-fin{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.fin-footer .paragraphe-fin{
+     color: rgba(245, 255, 250, 0.651); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* +++++++++RESPONSIVE PHONE++++++++++ */
+@media (max-width: 600px) {
+    
+    .liste{
+        display: none;
+    }
+    .navbar .hamburger{
+        display: flex;
+    }
+    .hero-section .navbar .liste{
+    display: none;  
+}
+body .hero-section .navbar{
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+}
+.image-limineux{
+    display: none;
+}
+.hero-section .box-texte .grand-title{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+}
+body .hero-section{
+    background-image: url(./Image/Illustration.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section .navbar .logo{
+    color: white;
+}
+.hero-section .box-texte .btn-none{
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+     border: 1px solid yellow;
+}
+body .texte-section .box-texte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: auto;
+    gap: 1rem;
+}
+body .texte-section .box-texte{
+    padding: 10px;
+}
+body .texte-section{
+    padding: 0px 20px;  
+}
+.box-texte .paragraphe-texte{
+    color: rgba(245, 255, 250, 0.651);
+    text-align: initial;
+    font-size: 12.5px;
+    padding-top: 5px;
+ }
+body .texte-section .title-section-2{
+    padding-top: 10px;
+}
+body .section-footer .background{
+    height: 27rem;
+    width: 20rem;
+    margin-bottom: 20px;
+}
+.background .box-illustration .logo-footer{
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+
+}
+.background .box-illustration{
+    flex-wrap: nowrap;
+    display: block;
+}
+.section-footer{
+    padding-left: 2rem;
+  
+}
+.background .illustration-clair{
+    height: 200px;
+    width: 270px;
+    padding: 30px;
+    position: relative;
+    bottom: 45%;
+}
+.background .box-illustration .texte-footer{
+    padding: 0px 30px;
+    position: absolute;
+    bottom: -85rem;
+}
+.section-footer .box-footer .footer-lampe{
+    width: 49vh;
+    height: 30vh;
+}
+.box-footer .fin-footer .block-footer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box-footer .fin-footer{
+    background-color: rgba(0, 69, 139, 0.694);
+    width: 49vh;
+    height: 60vh;  
+}
+.fin-footer .paragraphe-fin{
+    color: rgba(245, 255, 250, 0.651); 
+    padding-top: 10px;
+}
+.fin-footer .block-footer .laptop{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    padding-top: 5rem;
+}
+}
+
+
+
+
+ 
+    
+    
+ 
+
+
+
+
